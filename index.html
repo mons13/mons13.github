@@ -16,13 +16,89 @@
     <link rel="apple-touch-icon" sizes="1024x1024" href="img/icono1024.png">
     <link rel="apple-touch-icon" sizes="2048x2048" href="img/icono2048.png">
 
-    <script type="module" src="cmp/mi-footer.js"></script>
-    <link rel="stylesheet" href="css/estilos.css">
-  <body>
-    <h1>PWA </h1>
-    <p>¡Hola Profesor!</p>
-    <footer>
-      <p>
+    <SCRIPT LANGUAGE="JavaScript">
+<!-- Programado por JM Soft -->
+<!-- Página personal:  http://mimosa.pntic.mec.es/jgomez53 -->
+<!-- Inicio
+function cafaren(tabla) {
+c=tabla.centigrad.value;
+f=9*c/5+32;
+f=Math.round(f*100)/100;
+tabla.farenheit.value=f;
+}
+function cacenti(tabla) {
+f=tabla.farenheit.value;
+c=5*(f-32)/9;
+c=Math.round(c*100)/100;
+tabla.centigrad.value=c;
+}
+// Fin -->
+
+</SCRIPT>
+</head>
+
+<body background="../fondo1m.gif" vlink="#0000FF">
+
+<p align="center"><b><font size="6">Temperaturas</font></b></p>
+<p align="center">&nbsp;</p>
+<div align="center">
+  <center>
+  <form name="tabla">
+  <table border="0" cellspacing="10" cellpadding="5">
+    <tr>
+      <td>
+        <p align="center"><font size="4">Centígrados<br>
+        </font><input type="text" name="centigrad" size="20"></p>
+      </td>
+      <td valign="baseline" align="center">
+      <img border="0" src="termometro.gif" width="48" height="48">
+      </td>
+      <td>
+        <p align="center"><font size="4">Farenheit<br>
+        </font><input type="text" name="farenheit" size="20"></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" align="center">
+        <p align="center">
+      <input type="button" value="Convertir a Farenheit" onClick="cafaren(this.form)">
+      </td>
+      <td valign="middle" align="center">
+        <input type="Reset" value="Borrar">
+      </td>
+      <td valign="middle" align="center">
+        <input type="button" value="Convertir a Centígrados" onClick="cacenti(this.form)">
+      </td>
+    </tr>
+  </table>
+  </form>
+  </center>
+</div>
+
+<p align="center">&nbsp;</p>
+<p align="center"><font size="2" face="Book Antiqua">JM Soft</font></p>
+
+<p align="center">
+&nbsp;
+</p>
+<p align="center">
+&nbsp;
+</p>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="4" cellspacing="6">
+    <tr>
+      <td>
+        <p align="center"><a href="primera.htm"><img border="0" src="../jasicon.gif" width="49" height="49"><br>
+        Menú Javascript</a></td>
+      <td>
+        <p align="center"><a href="../indice.php"><img border="0" src="../icoprin.gif" width="49" height="49"><br>
+        Página Principal</a></td>
+    </tr>
+  </table>
+  </center>
+</div>
+
         <mi-footer></mi-footer>
       </p>
     </footer>
